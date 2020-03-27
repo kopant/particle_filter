@@ -11,3 +11,4 @@ dependencies:
    - folium==0.10.1
    - Shapely==1.7.0
    - Fiona==1.8.13.post1
+   - pyproj==2.6.0
