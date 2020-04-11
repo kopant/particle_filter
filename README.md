@@ -8,7 +8,7 @@ That paper used HMMs to smooth GPS traces, whereas here I have used particle fil
 
 One difference in my approach is that as I do not have easy access to the driving distance between two arbitary points, I use haversine distance in the transition calculation. 
 
-Code has been tested with python 3; an environment.yml file lists the dependencies.
+Code has been tested with python 3.7.0; an environment.yml file lists the dependencies. Shapely is used for geospatial data structures, with pandas and numpy behind the scenes. Matplotlib basemap is used for quick visualization. 
 
 ## Datasets
 1. Cabspotting GPS trace data, retrieved from http://crawdad.org/epfl/mobility/20090224/cab/
