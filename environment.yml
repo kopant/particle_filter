@@ -7,8 +7,15 @@ dependencies:
  - numpy=1.16.4
  - pandas=0.24.2
  - scikit-learn
+ - matplotlib
+ - pyproj
+ - fiona
+ - shapely
+ - basemap-data-hires
+ - basemap
+ - cartopy  #new
  - pip:
    - folium==0.10.1
-   - Shapely==1.7.0
-   - Fiona==1.8.13.post1
-   - pyproj==2.6.0
+#   - Shapely==1.7.0
+#   - Fiona==1.8.13.post1
+#   - pyproj==2.2.1  #2.6.0
